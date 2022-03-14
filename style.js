@@ -19,7 +19,7 @@ var countDownDate = new Date("Jan 24, 2022 00:00:00").getTime();
 
                 if(distance < 0){
                     clearInterval(x);
-                    document.getElementById("days").innerHTML = "00";
+                    document.getElementById("days").innerHTML = "07";
                     document.getElementById("hours").innerHTML = "00";
                     document.getElementById("minutes").innerHTML = "00";
                     document.getElementById("seconds").innerHTML = "00";
